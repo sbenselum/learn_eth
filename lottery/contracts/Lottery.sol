@@ -5,7 +5,7 @@ contract Lottery {
     address[] public players;
     
     function Lottery() public {
-        require(manager==null)
+        //require(manager==null);
         manager = msg.sender;
     }
     
