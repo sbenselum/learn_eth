@@ -1,6 +1,6 @@
 pragma solidity ^0.4.17;
 
-contract CampaingFactory {
+contract CampaignFactory {
     address[] deployedCampaigns;
 
     function createCampaign(uint minimum) public {
