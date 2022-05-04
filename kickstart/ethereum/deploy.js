@@ -1,11 +1,6 @@
-const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
-
-const provider = new HDWalletProvider(
-  'nominee pet orient impose assault antenna tent easily sad powder bird develop',
-  'https://rinkeby.infura.io/v3/7e68ca0c4cec4ca783607cf22d403e93' 
-);
+const { provider } = require("./provider");
 const web3 = new Web3(provider);
 
 const deploy = async () => {
