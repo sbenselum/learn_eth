@@ -1,2 +1,5 @@
 
 kickstart/ethereum/provider.js
+Inbox/provider.js
+lottery/provider.js
+lottery-updated/provider.js
